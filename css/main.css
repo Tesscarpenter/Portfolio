@@ -1,0 +1,176 @@
+/*------Table of contents---
+1. Reset
+2. Universal Styles
+3.
+
+-----*/
+
+/*-------------This is the reset----------- */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%
+}
+
+/*----Universay Styles----*/
+body {
+  font-family: 'Lato', sans-serif;
+  color: #34495e;
+  font-size: 1.2rem;
+
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Della Respira', serif;
+}
+
+section, footer {
+  padding: 10vh 10vw ;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.featured {
+  background-color: #F9690E;
+}
+
+.centered{
+  text-align: center;
+  }
+
+.white-box {
+  background-color: white;
+  padding: 5%;
+  max-width: 80%;
+  margin: 0 auto;
+  }
+
+
+/*----Header----*/
+.top-banner {
+  min-height: 100vh;
+  background-image: url(../images/giphy.gif);
+  background-size: cover;
+  background-attachment:fixed;
+  color: white;
+}
+.top-banner h2{
+  font-size: 5.5rem;
+  margin-top: 15rem;
+  margin-bottom: 1.2rem;
+  letter-spacing: 40px;
+}
+
+.top-banner h3{
+  font-size: 1.5rem;
+  margin-top: 3.5rem;
+  margin-bottom: 1.2rem;
+  letter-spacing: 30px;
+}
+header nav a {
+  padding: 0 1em;
+}
+
+a {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.logo {
+  margin:0 auto 1rem;
+  font-size: 1rem;
+  width: 85px;
+  opacity: .7;
+}
+
+h1{
+  font-family: 'Della Respira', serif;
+  font-size: 1rem;
+  line-height: 1.2;
+  margin-top: 6vh;
+  letter-spacing: 10px;
+}
+
+
+/*----About----*/
+.featured div p{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #34495e;
+}
+
+.featured div h2{
+  font-family: 'Inconsolata', monospace;
+  line-height: 1.2;
+  margin-bottom: 2.2rem;
+  letter-spacing: 5px;
+  border-bottom: 1px solid;
+
+}
+
+/*----Skills----*/
+
+
+
+/*--------Experience----*/
+.experience .fa {
+  font-size: 3rem;
+  float: left;
+  margin: 0 5% 5% 0
+}
+
+.experience .centered {
+  padding-bottom: 5%;
+}
+/*----Map----*/
+
+
+/*----Footer----*/
+footer.featured div {
+  text-align: center;
+  color: white;
+}
+
+footer.featured div h2{
+  font-family: 'Della Respira', serif;
+  margin-bottom: 4.5rem;
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+}
+
+footer.featured div a{
+  letter-spacing: 10px;
+  }
+
+.footer-email {
+  margin-bottom: 2rem;
+}
+
+.featured nav a{
+  font-family: 'Della Respira', serif;
+  line-height: 1.2;
+  margin-top: 2.5rem;
+  margin-bottom: 2.2rem;
+  letter-spacing: 10px;
+  padding: 1.5em;
+}
+
+@media (max-width:480px){
+  .featured{
+    background-color: #1abc9c;
+  }
+  .tab-hide {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .top-banner h2 {
+    font-size: 3.5rem;
+}
+}
